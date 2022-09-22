@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    text-align: center;
+}
+
+
+h1{
+    text-align: center ;
+    font-weight: bold;
+    font-size: 50pt;
+    margin-top: 40px;
+    
+}
+
+#count-el{
+    font-size: 50pt;
+    font-weight: bold;
+}
+
+
+#save-el{
+   padding-top:35px;
+   font-size: 25pt;
+   font-weight: bold;
+}
+
+
+
+body{
+    background-image: url("Pictures/Train station.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+
+
+
+#increment_btn{
+    background: darkred;
+    margin-top:50px;
+    
+}
+#increment_btn:hover{
+    background: #ff0000;
+    
+}
+
+
+
+
+#save_btn{
+    background: darkgreen;
+}
+#save_btn:hover{
+    background: #00fe00;
+}
+
+
+
+
+
+#reset_btn{
+    background: Orange;
+}
+#reset_btn:hover{
+    background: #fa8700;
+}
+
+
+
+
+
+
+
+button{
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height:80px;
+    margin-bottom: 5x;
+    border-radius: 10px;
+    /*font-size: 18pt;    
+    transition-property: width;
+    transition-delay: 0.4s;
+    transition-duration: 0.3s;*/
+
+
+    transition: all .5s linear ;
+    /*proprty, duration, timing function, delay*/
+
+
+
+}
+
+
+
+
+button:hover{
+    
+    font-size: 18pt;    
+    cursor: pointer;
+    color: black; 
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+
+}
+
+
+
+
+div{
+    padding-bottom: 30px;
+}
